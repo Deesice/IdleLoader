@@ -58,15 +58,15 @@ public class RandomColor : MonoBehaviour, IPool
 
     public void OnTake()
     {
-        //meshRenderer.material = materials[Random.Range(0, materials.Length)];
-        var newColor = materials[Random.Range(0, materials.Length)].color;
-        if (meshLibrary.TryGetValue(originalMesh, out var dictionary))
-        {
-            if (dictionary.TryGetValue(newColor, out var newMesh))
-                meshFilter.mesh = newMesh;
-            else
-                Debug.Log(newColor + " for " + originalMesh + " not generated");
-        }
+        meshRenderer.material = materials[Random.Range(0, materials.Length)];
+        //var newColor = materials[Random.Range(0, materials.Length)].color;
+        //if (meshLibrary.TryGetValue(originalMesh, out var dictionary))
+        //{
+        //    if (dictionary.TryGetValue(newColor, out var newMesh))
+        //        meshFilter.mesh = newMesh;
+        //    else
+        //        Debug.Log(newColor + " for " + originalMesh + " not generated");
+        //}
     }
 
     public void OnPush()

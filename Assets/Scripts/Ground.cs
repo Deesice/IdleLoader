@@ -24,6 +24,7 @@ public class Ground : MonoBehaviour
     public bool isWater;
     void Start()
     {
+        //isWater = Random.Range(0, 2) == 0;
         selectedGroundMaterial = groundMaterials[Random.Range(0, groundMaterials.Length)];
 #if !UNITY_EDITOR
         RenderSettings.skybox = selectedGroundMaterial;

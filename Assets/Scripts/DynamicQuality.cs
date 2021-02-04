@@ -19,7 +19,7 @@ public class DynamicQuality : MonoBehaviour
     public Text text;
     private void Start()
     {
-        //QualitySettings.SetQualityLevel(1, true);
+        QualitySettings.SetQualityLevel(1, true);
         text.color = colors[QualitySettings.GetQualityLevel()];
         StartCoroutine(FPSCounter());
     }
