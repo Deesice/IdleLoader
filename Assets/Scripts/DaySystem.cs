@@ -17,7 +17,7 @@ public class DaySystem : MonoBehaviour
         var date = DateTime.Now;
         currentTime = date.Hour * 3600 + date.Minute * 60 + date.Second ;
 
-        //currentTime = 40000;
+        currentTime = 40000;
 
         currentTime = Mathf.Clamp(currentTime, 0, 43200 * 2);
 
