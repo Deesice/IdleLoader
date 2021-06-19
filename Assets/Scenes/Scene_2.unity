@@ -867,7 +867,9 @@ MonoBehaviour:
   - 9
   - 1
   obstacles:
-  - {fileID: 4338708387037737489, guid: fff50ee8b0a676f4dab697c73d136855, type: 3}
+  - {fileID: 2415177698290886678, guid: ca85c10ce0131f24187cb9e0c02fe3b5, type: 3}
+  - {fileID: 7356144198374624782, guid: 7bafb2e68d3f83d45ba5be89541baf41, type: 3}
+  - {fileID: 3407103902811847863, guid: 84577c4347f128f47ae2ecbb3963de92, type: 3}
   pointerPrefab: {fileID: 8462798082326501617, guid: f10c7b83823483c4783514e770df65da, type: 3}
   player: {fileID: 2013652265}
   garage: {fileID: 1596241190}
@@ -1015,7 +1017,6 @@ MonoBehaviour:
   - {fileID: 8462798082326501617, guid: c32f7e2c8687ab94db3786d8175e9f1f, type: 3}
   - {fileID: 3407103902811847863, guid: 84577c4347f128f47ae2ecbb3963de92, type: 3}
   - {fileID: 7897735652149203129, guid: 8ef821146ed4f0c459cf04276a5c8f55, type: 3}
-  - {fileID: 4338708387037737489, guid: fff50ee8b0a676f4dab697c73d136855, type: 3}
 --- !u!114 &1284441415
 MonoBehaviour:
   m_ObjectHideFlags: 0
